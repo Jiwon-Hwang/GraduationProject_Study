@@ -80,7 +80,7 @@ if __name__ == '__main__':
 
     parts = [table['hair'], table['upper_lip'], table['lower_lip']]
 
-    colors = [[0, 0, 0], [77, 51, 225], [77, 51, 225]] #[b,g,r] 순서, [[hair??],[upper_lip],[lower_lip]]
+    colors = [[17, 17, 63], [0, 57, 238], [0, 57, 238]] #[b,g,r] 순서, [[hair??],[upper_lip],[lower_lip]]
 
     for part, color in zip(parts, colors):
         image = hair(image, parsing, part, color)
